@@ -9,7 +9,7 @@ const app = express();
 app.use(express.json());
 app.use(
   cors({
-    origin: "https://66d1fd5e35bb4f1a7b523bd2--thecleaningcrew.netlify.app/",
+    origin: "https://thecleaningcrew.netlify.app/",
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
   })
