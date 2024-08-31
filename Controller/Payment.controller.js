@@ -48,8 +48,8 @@ export const processPayment = async (req, res) => {
         quantity: 1,
       }],
       mode: 'payment',
-      success_url: `http://localhost:5173/paymentsuccess`,
-      cancel_url: `http://localhost:5173/paymentcancel`,
+      success_url: `https:/thecleaningcrew.netlify.app/paymentsuccess`,
+      cancel_url: `https:/thecleaningcrew.netlify.app/paymentcancel`,
     });
 
     // Send session ID to client
